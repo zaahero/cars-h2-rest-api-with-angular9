@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cars>
+    <car>
+        <make>Audi</make>
+        <builtdate>2005</builtdate>
+        <model>A8</model>
+        <colour>black</colour>
+        <doors>4</doors>
+        <enginesize>10</enginesize>
+    </car>
+    <car>
+        <make>BMW</make>
+        <builtdate>2005</builtdate>
+        <model>m5</model>
+        <colour>blue</colour>
+        <doors>4</doors>
+        <enginesize>10</enginesize>
+    </car>
+    <car>
+        <make>Toyota</make>
+        <builtdate>2003</builtdate>
+        <model>corolla</model>
+        <colour>red</colour>
+        <doors>4</doors>
+        <enginesize>5</enginesize>
+    </car>
+</cars>

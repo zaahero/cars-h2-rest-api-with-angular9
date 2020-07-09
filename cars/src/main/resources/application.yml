@@ -1,0 +1,12 @@
+
+#Configuring Port to 8080
+server:
+  port: 8080
+
+#Swagger dependencies
+swagger:
+  client:
+    version: 0.0.1
+spring:
+  jpa:
+    open-in-view: true

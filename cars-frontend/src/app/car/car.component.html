@@ -1,0 +1,35 @@
+<div class="card" style="margin-top: 10px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12  col-lg-10">
+                <div class="card-body" (click)="toggleCar()" style="cursor: pointer;">
+                    <h5 class="card-title">Model : {{ car.model}}</h5>
+                    <h6 class="card-title">Make : {{ car.make}}</h6>
+                    <!-- <h6 class="card-text">Author : <div *ngFor="let auth of car.authors.author" style="margin-top: 10px;">{{auth}}</div></h6> -->
+                    <p class="card-text">Colour : {{ car.colour}}</p>
+                    <p class="card-text">Built Date : {{ car.builtdate}}</p>
+                    <p class="card-text">Doors : {{ car.doors}}</p>
+                    <p class="card-text">Engine Size : {{ car.enginesize}}</p>
+                    <!-- <div *ngIf="isClicked">
+                        <p class="card-text">Built Date : {{ car.builtdate}}</p>
+                        <p class="card-text">Doors : {{ car.doors}}</p>
+                        <p class="card-text">Engine Size : {{ car.enginesize}}</p>
+                    </div> -->
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+            </div>
+            <div class="col-md-12  col-lg-2">
+                <div style="display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+                    height: 100%;">
+                    <a class="btn btn-primary" (click)="handleEdit()">Edit</a>
+                    <a class="btn btn-primary" (click)="handelDelete()">Delete</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
